@@ -5,12 +5,14 @@
   "repository": "git@github.com:fatefan/Javascript-Test.git",
   "author": "fynn <iamfatefan000@gmail.com>",
   "license": "MIT",
-  "scripts":{
-    "start":"webpack-dev-server --inline --hot"
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot",
+    "test": "mocha"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.4.1",
+    "selenium-webdriver": "^3.4.0",
     "webpack": "^2.5.1",
     "webpack-dev-server": "^2.4.5"
   }
